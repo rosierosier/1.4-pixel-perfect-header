@@ -27,7 +27,7 @@ header::before {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 50, 200, 0.7);
+  background: rgba(0, 125, 230, 0.8);
 }
 
 
@@ -67,7 +67,9 @@ nav::after {
   margin-top: 10.5px;
   letter-spacing: 0.4px;
   position: relative;
+  left: 3;
   bottom: 1;
+  font-weight: lighter;
 }
 
 .logo-container img {
@@ -111,7 +113,8 @@ h4 {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   margin-top: -16px;
-  font-size: 14px;
+  font-size: 15px;
+  font-weight: lighter;
   padding-right: 1px;
   letter-spacing: 0.2px;
 
