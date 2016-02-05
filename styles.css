@@ -65,9 +65,10 @@ nav::after {
   font-size: 15px;
   vertical-align: middle;
   margin-top: 10.5px;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.35px;
   position: relative;
-  left: 3;
+  padding-left: 3px;
+  left: 5;
   bottom: 1;
   font-weight: lighter;
 }
@@ -123,7 +124,12 @@ h4 {
 .blog-container {
   margin-top: -15px;
   margin-left: 164px;
-  width: 600px;
+  width: 652px;
+  display: inline-block;
+  float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 h3 {
@@ -174,8 +180,23 @@ h3 {
 
 .blog-text p{
   margin-top: 14.1px;
+  margin-right: 50px;
   margin-bottom: 5px;
   letter-spacing: -0.3px;
   padding-bottom: 13px;
   line-height: 1.59;
+  word-spacing: -0.2px;
+}
+
+.interjection {
+  color: #0069b8;
+  line-height: 5;
+  font-size: 27px;
+  padding-right: 2px;
+  padding-top: 4.5px;
+  vertical-align: middle;
+}
+
+.sidebar {
+  width: 275px;
 }
