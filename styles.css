@@ -296,10 +296,10 @@ blockquote p {
   width: 276px;
 }
 
-.most-popular {
-  clear: both;
-  display: block;
-  margin-left: 164px;
+.buttons ul {
+  padding-left: 0;
+  margin-left: 3px;
+  margin-top: 8px;
 }
 
 .buttons li {
@@ -307,23 +307,56 @@ blockquote p {
   list-style: none;
   color: white;
   background-color: #9fb3c0;
-  padding: 5px;
-  font-weight: bold;
-  margin-left: 5px;
+  margin-right: 6.5px;
+  padding-right: 8px;
 }
 
 .buttons a {
   text-decoration: none;
   color: white;
+  font-size: 13px;
   display: inline-block;
   list-style: none;
   background-color: #9fb3c0;
-  padding: 5px;
-  font-weight: bold;
-  margin-left: 5px;
+  margin-left: 8.5px;
+  padding-right: 4px;
 }
 
 .buttons i {
   background-color: #5c6870;
-  padding: 7px;
+  font-size: 14px;
+  padding: 8px 9.5px;
+}
+
+.read-later a {
+  padding-right: 8px;
+  margin-left: 8px;
+}
+
+#share-post a {
+  padding-right: 8px;
+  background-color: #0069b8;
+}
+
+.buttons li:nth-child(3) {
+  background-color: #0069b8;
+}
+
+.buttons i:nth-last-child {
+  background-color: #003354;
+}
+
+.most-popular {
+  display: block;
+  clear: both;
+  margin-left: 164px;
+}
+
+.popular-head {
+  display: block;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 33px;
+  text-transform: uppercase;
+  color:
 }
