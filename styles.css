@@ -124,7 +124,7 @@ h4 {
 .blog-container {
   margin-top: -15px;
   margin-left: 164px;
-  width: 652px;
+  width: 621px;
   display: inline-block;
   float: left;
     -webkit-box-sizing: border-box;
@@ -180,7 +180,6 @@ h3 {
 
 .blog-text p{
   margin-top: 14.1px;
-  margin-right: 50px;
   margin-bottom: 5px;
   letter-spacing: -0.3px;
   padding-bottom: 13px;
@@ -198,5 +197,27 @@ h3 {
 }
 
 .sidebar {
-  width: 275px;
+  width: 280px;
+  display: inline-block;
+  margin-top: 84px;
+  position: relative;
+  left: 77px;
+}
+
+.author img {
+  border-radius: 100%;
+  width: 81px;
+  height: 81px;
+  margin: 0 auto;
+  position: relative;
+  left: 99px;
+}
+
+.author h2 {
+  font-family: 'Open Sans', sans-serif;
+  color: #0069b8;
+  text-align: center;
+  font-size: 16px;
+  font-weight: lighter;
+  margin-top: 7px;
 }
