@@ -354,14 +354,32 @@ blockquote p {
 }
 
 .popular-head {
-  display: block;
+  display: inline-block;
   margin-top: 0px;
   text-align: center;
   font-size: 31px;
   text-transform: uppercase;
+  margin-left: 0;
+  margin-right: 0;
+  position: relative;
 }
 
 .popular-head h1 {
-  margin-top: 26px;
+  display: block;
+  margin-top: 25px;
   color: #003354;
+  letter-spacing: -0.7px;
+}
+
+.popular-posts p {
+  display: inline-block;
+  position: absolute;
+}
+
+.popular-posts img {
+  max-width: 100%;
+  width: 326px;
+  height: 330px;
+  display: inline-block;
+  position: relative;
 }
