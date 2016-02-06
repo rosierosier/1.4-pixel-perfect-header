@@ -372,8 +372,13 @@ blockquote p {
 }
 
 .popular-posts p {
+  background: url('http://i.telegraph.co.uk/multimedia/archive/02134/surf-wave_2134340b.jpg') center, center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 326px;
+  height: 330px;
+  position: relative;
   display: inline-block;
-  position: absolute;
 }
 
 .popular-posts img {
@@ -382,4 +387,6 @@ blockquote p {
   height: 330px;
   display: inline-block;
   position: relative;
+  margin: 0 auto;
+  padding: 0;
 }
