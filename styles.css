@@ -376,9 +376,6 @@ blockquote p {
 }
 
 .popular-links a {
-  background: url('http://i.telegraph.co.uk/multimedia/archive/02134/surf-wave_2134340b.jpg') center, center;
-  -webkit-background-size: cover;
-  background-size: cover;
   width: 325px;
   height: 330px;
   display: block;
@@ -388,8 +385,54 @@ blockquote p {
   color: #003354;
   text-align: left;
   box-sizing: border-box;
-  padding-top: 228px
-  padding-bottom: 13px;
-  padding-left: 15px;
+  padding-left: 18px;
+  position: relative;
+  padding-top: 278px;
+  font-size: 29px;
+  background-color: rgba(0, 125, 200, 0.5);
 
+
+}
+
+.popular-links a:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.popular-links img {
+  max-width: 100%;
+  width: 325px;
+  height: 330px;
+  display: inline-block;
+  float: left;
+  position: absolute;
+  left: 0;
+}
+
+.post-title img {
+  left: 325px;
+}
+
+.post-title a {
+  padding-left: 19px;
+}
+
+.longer-post a {
+  padding-top: 243px;
+  line-height: 36px;
+  word-spacing: 1.5px;
+  letter-spacing: 0.6px;
+  padding-right: 10px;
+}
+
+.longer-post img {
+  left: 650px;
+}
+
+.cool-post a {
+  padding-left: 21px;
+}
+
+.cool-post img {
+  left: 975px;
 }
