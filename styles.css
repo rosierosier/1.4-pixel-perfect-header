@@ -436,3 +436,43 @@ blockquote p {
 .cool-post img {
   left: 975px;
 }
+
+.footer {
+  display: block;
+  clear: both;
+  background-color: #003354;
+  height: 97px;
+}
+
+.TIY img {
+  max-width: 100%;
+  display: inline-block;
+  float: left;
+  margin-left: 152px;
+  margin-top: 13px;
+}
+
+.TIY p {
+  display: inline-block;
+  color: white;
+  font-size: 13px;
+  letter-spacing: 0.08px;
+  margin-top: 38px;
+  margin-left: 5px;
+}
+
+.footer-nav {
+  border-right: 1px solid white;
+  float: right;
+}
+
+.footer-nav a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  border-right: 1px solid white;
+  padding-right: 5px;
+  margin-right: 10px;
+  font-size: 12px;
+}
