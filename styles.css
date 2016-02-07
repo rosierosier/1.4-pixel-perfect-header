@@ -462,8 +462,9 @@ blockquote p {
 }
 
 .footer-nav {
-  border-right: 1px solid white;
   float: right;
+  margin-top: 41px;
+  margin-right: 156px;
 }
 
 .footer-nav a {
@@ -471,8 +472,24 @@ blockquote p {
   text-decoration: none;
   color: white;
   display: inline-block;
+  margin-right: 7px;
+  font-size: 13px;
+  padding-left: 2px;
+  position: relative;
+  top: -7px;
+}
+
+.footer-item {
+  display: inline-block;
+  margin-right: 3px;
   border-right: 1px solid white;
-  padding-right: 5px;
-  margin-right: 10px;
-  font-size: 12px;
+  height: 12px;
+}
+
+.footer-item:nth-child(4) {
+  border: none;
+}
+
+.footer-nav a:hover {
+  color: #0069b8;
 }
