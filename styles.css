@@ -93,6 +93,15 @@ nav::after {
   margin-right: -5px;
 }
 
+.header-nav-link a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-nav-link a:hover {
+  color: white;
+}
+
 /*.header-links li span {
   display: inline-block;
   line-height: 26px;
