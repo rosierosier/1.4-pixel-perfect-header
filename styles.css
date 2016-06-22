@@ -447,9 +447,29 @@ blockquote p {
   left: 368px;
 }
 
-.popular-links a {
-  width: 325px;
+.popular-links {
   height: 330px;
+}
+
+.another-cool {
+  height: 330px;
+}
+
+.post-title {
+  height: 330px;
+}
+
+.longer-post {
+  height: 330px;
+}
+
+.cool-post {
+  height: 330px;
+}
+
+.popular-links a {
+  /*width: 325px;*/
+  height: 100%;
   display: block;
   float: left;
   text-decoration: none;
@@ -472,7 +492,7 @@ blockquote p {
 .popular-links img {
   max-width: 100%;
   width: 325px;
-  height: 330px;
+  height: 100%;
   display: inline-block;
   float: left;
   position: absolute;
